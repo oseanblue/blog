@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tutorial on JavaScript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Tutorial on JavaScript</h1>
+        </div>
+    </header>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="blog-post">
+                    <h2>What is Promise in JavaScript?</h2>
+                    <p>In JavaScript, a promise is an object that represents the eventual completion (or failure) of an asynchronous operation, and its resulting value.
+
+                        A promise has three states:
+                        
+                        Pending: The initial state, which means the promise is still in progress.
+                        Fulfilled: The state when the promise is completed successfully, and a resolved value is returned.
+                        Rejected: The state when the promise is not completed successfully, and a reason for the failure is provided.
+                        Promises are used to handle asynchronous operations in JavaScript, such as fetching data from a server, reading a file, or setTimeout, etc.
+                        
+                        Promises provide a simpler alternative for executing, composing, and managing asynchronous operations when compared to the callback approach.
+                        
+                        Here is an example of a promise that resolves after 2 seconds:</p>
+                        <div class="code-block">
+                            <pre>
+                                <code>
+                                    <span class="comments">//promise example</span>
+                                    let <span class="keyword">myPromise</span> = new Promise((resolve, reject) => {
+                                        setTimeout(() => {
+                                            resolve("Promise resolved!");
+                                        }, 2000);
+                                    });
+                                </code>
+                               
+                                
+                            </pre>
+                        </div>
+                        
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <h3>Recent Posts</h3>
+                <ul class="list-unstyled">
+                    <li><a href="#">What is Promise?</a></li>
+                    <li><a href="#">What is async aait?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">How to make HTTP reuest?</a></li>
+                    <li><a href="#">What is first order function?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                    <li><a href="#">What is array foreach?</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>Copyright &copy; My Blog</p>
+        </div>
+    </footer>
+    <div id="show-footer-area"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="sc.js"></script>
+
+   
+    
+</body>
+
+</html>
